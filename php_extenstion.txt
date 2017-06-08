@@ -1,0 +1,6 @@
+ ./configure  --prefix=/usr/local/php5/  --with-config-file-path=/usr/local/php5/et   --with-mysql=/usr/local/mysql/    --with-libxml-dir=/usr/local/libxml2/  --with-jpeg-dir=/usr/local/jpeg6/  --with-png-dir=/usr/local/libpng/   --with-freetype-dir=/usr/local/freetype/  --with-mcrypt=/usr/local/libmcrypt/  --with-mysqli=/usr/local/mysql/bin/mysql_config  --enable-soap  --enable-mbstring=all  --enable-sockets --enable-fpm  --with-pdo-mysql=/usr/local/mysql   --with-openssl
+
+
+./configure --enable-gd-native-ttf   --enable-gd-jis-conv  --with-jpeg-dir=/usr/local/jpeg   --with-php-config=/usr/local/php5/bin/php-config
+
+gd  libjpeg  freetype
